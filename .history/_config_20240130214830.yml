@@ -1,0 +1,24 @@
+title: Nom de Mon Site
+email: votre.email@example.com
+description: >- # Ceci est une description longue pour votre site.
+  Bienvenue sur mon blog personnel. Ici, je partage mes pensées, mes articles et bien plus encore.
+baseurl: "" # le sous-chemin de votre site, e.g., "/blog" si votre site est à example.com/blog
+url: "http://bytemesecurely.me" # l'URL de votre site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Metadonnées supplémentaires
+author: Byteme
+twitter_username: notwitt
+github_username:  bytemesecurely
+
+# Options de menu
+header_pages:
+  - index.md
+  - about.md
+  - contact.md
+
+# Footer settings
+footer: © {{ site.time | date: '%Y' }} {{ site.title }}. Tous droits réservés.
