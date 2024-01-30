@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+</head>
+
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
+                <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+                <!-- Ajoutez d'autres liens de navigation si nécessaire -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>© {{ site.time | date: '%Y' }} {{ site.title }}. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
