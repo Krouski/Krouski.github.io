@@ -1,7 +1,7 @@
 title: Mon Blog
 description: Ceci est mon blog personnel sur GitHub Pages.
-baseurl: "" # le sous-chemin de votre site, e.g. "/blog"
-url: "" # l'URL de votre site
+baseurl: "/" # le sous-chemin de votre site, e.g. "/blog"
+url: "http://bytemesecurely.me" # l'URL de votre site
 
 # Build settings
 markdown: kramdown
