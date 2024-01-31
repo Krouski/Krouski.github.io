@@ -1,6 +1,0 @@
----
-layout: default
-title: Accueil
----
-
-Contenu de la page d'accueil.
